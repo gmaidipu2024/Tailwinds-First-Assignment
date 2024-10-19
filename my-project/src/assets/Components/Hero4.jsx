@@ -1,4 +1,6 @@
+
 import React from 'react'
+
 
 function Hero4() {
   return (
@@ -83,8 +85,8 @@ function Hero4() {
         
 
       </div>
-      <div>
-      <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> Get started</button>
+      <div className='text-center'>
+      <button className='bg-primary p-5 mb-5 mt-5 rounded-lg text-white font-Onest font-bold text-2xl '> Get started</button>
       
       </div>
       
