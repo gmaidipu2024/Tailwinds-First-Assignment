@@ -7,9 +7,7 @@ function Main() {
     <div className='flex flex-wrap mb-20' >
     <Hero/>  
     </div>
-    <div className='flex flex-wrap mb-20'>
-    
-    </div>
+   
     </>
   )
 }

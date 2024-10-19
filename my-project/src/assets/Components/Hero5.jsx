@@ -22,9 +22,9 @@ function Hero5() {
               <li>Cypher AI</li>
             </ul>
           </div>
-          <div className='flex content-center gap-4'>
-            <img className='bg-[#FFFFFF] p-4 rounded-full ' src="./public/img/bel.png" alt="" />
-            <img src="./public/img/Rectangle 5412.png" alt="" />
+          <div className='flex flex-wrap content-center gap-4 '>
+            <img className='p-1' src="/public/img/nav.png" alt="" />
+            <img className='p-1' src="./public/img/Rectangle 5412.png" alt="" />
             <div>
               <h1>Goutam Adhikari Dipu</h1>
               <h3>gtm10322@gmail.com</h3>

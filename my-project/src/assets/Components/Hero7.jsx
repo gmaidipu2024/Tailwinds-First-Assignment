@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Hero6() {
+function Hero7() {
   return (
     <>
-    <div className='bg-[#E4E4E780] p-5 mx-auto'>
+      <div className='bg-[#E4E4E780] p-5 mx-auto'>
         {/* Upper Navbar */}
         <div className=' flex flex-wrap justify-around content-between  '>
           <img src="./public/img/logo.png" alt="" />
@@ -50,23 +50,8 @@ function Hero6() {
         </div>
 
     </div>
-
-    <div className='mt-10 mr-0 flex flex-col flex-wrap  justify-center content-center '>
-      
-        <h1 className='text-3xl font-Onest font-bold mb-5'>Let’s give the incident a title?</h1>
-        <h3 className='text-[14px] text-secondary font-medium mb-5 text-xl '>Make a title that will easily identify the incidents</h3>
-
-        <input className='bg-[#F4F4F5] p-5 outline-none mb-5 ' type="text" placeholder='Add title here' />  
-      
-
-      
-      <h1 className='text-3xl font-Onest font-bold mb-5'>Describe what happened during the incident?</h1>
-      <p  className='text-[14px] text-secondary font-medium mb-10 text-xl '>Share some information about the incident. The when, where, how. </p>
-      
-    </div>
-    
     </>
   )
 }
 
-export default Hero6
+export default Hero7
