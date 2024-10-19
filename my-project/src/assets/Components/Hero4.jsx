@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Navbar(Props) {
+function Hero4() {
   return (
     <>
-    {/* Main Div */}
       <div className='bg-[#E4E4E780] p-5 mx-auto'>
         {/* Upper Navbar */}
         <div className=' flex justify-between content-center flex-wrap  '>
@@ -29,28 +28,15 @@ function Navbar(Props) {
           </div>
 
         </div>
-         {/* Lower Navbar */}
-        <div className='flex justify-between content-center mt-6'>
-           {/* First Part */}
-          <div>
-            <h3 className='text-[#71717A] '>Welcome back</h3>
-            <h1 className='font-bold text-3xl '>Dashboard</h1>
-          </div>
-           {/* Last part */}
-          <div className='flex flex-wrap gap-4 justify-center content-center'>
-            <div>
-             <input className='p-4 outline-none' type="text" placeholder='Search incident' />
-            </div>
-              
-              <span className='bg-[white] p-4'>Sort By: Date modified</span>
-              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> Cypher AI</button>
-
-          </div>
-        </div>
-
+         
+          
       </div>
+      <div>
+        
+      </div>
+      
     </>
   )
 }
 
-export default Navbar
+export default Hero4

@@ -1,9 +1,10 @@
 import React from 'react'
+import Main from './Main'
 
-function Navbar(Props) {
+
+function Hero3() {
   return (
     <>
-    {/* Main Div */}
       <div className='bg-[#E4E4E780] p-5 mx-auto'>
         {/* Upper Navbar */}
         <div className=' flex justify-between content-center flex-wrap  '>
@@ -43,14 +44,15 @@ function Navbar(Props) {
             </div>
               
               <span className='bg-[white] p-4'>Sort By: Date modified</span>
-              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> Cypher AI</button>
+              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
 
           </div>
         </div>
 
       </div>
+      <Main/>
     </>
   )
 }
 
-export default Navbar
+export default Hero3;
