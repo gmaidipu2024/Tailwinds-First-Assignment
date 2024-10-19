@@ -1,10 +1,12 @@
 import React from 'react'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHillAvalanche, faDna, faCloud  } from '@fortawesome/free-solid-svg-icons'
 
 function Hero5() {
   return (
     <>
+    {/* 1st Section */}
     <div className='bg-[#E4E4E780] p-5 mx-auto'>
         {/* Upper Navbar */}
         <div className=' flex justify-between content-center flex-wrap  '>
@@ -28,7 +30,9 @@ function Hero5() {
               <h3>gtm10322@gmail.com</h3>
             </div>  
           </div>
-
+          <div >
+            <hr className=' border 1px solid border-b-red-900 ' />
+          </div>
         </div>
          {/* Lower Navbar */}
         <div className='flex justify-between content-center mt-6'>
@@ -51,10 +55,11 @@ function Hero5() {
       <div >
         <h1 className='text-center text-other text-4xl font-bold font-Onest mt-8 mb-8'>Which of these best describes the incident?</h1>
         <div className=' flex flex-wrap gap-3 justify-center items-center mb-5' >
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
-           <img src="/public/img/fi_67855.png" alt="" />
+           <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <img src="/public/img/fi_67855.png" alt="" />
               <span className='text-secondary'>Avalanche</span>
             </div>
+
             <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto '>
             <img src="/public/img/fi_8931510.png" alt="" />
               <span className='text-secondary'>Biological</span>
