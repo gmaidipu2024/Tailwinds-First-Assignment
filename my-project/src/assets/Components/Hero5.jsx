@@ -39,7 +39,7 @@ function Hero5() {
            {/* First Part */}
           <div>
             <h3 className='text-[#71717A] text-xl'>Home - Incidents - New Incident</h3>
-            <h1 className='font-bold text-5xl text-other  mt-4 font-bold '>New Incident</h1>
+            <h1 className='font-bold text-5xl text-other  mt-4  '>New Incident</h1>
           </div>
            {/* Last part */}
           <div className='flex flex-wrap gap-4 justify-center content-center'>
