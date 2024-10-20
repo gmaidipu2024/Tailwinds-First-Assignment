@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 // Navbar
 function Navbar(Props) {
@@ -13,12 +13,12 @@ function Navbar(Props) {
 
           <div className=' grid grid-cols-12 md:grid-cols-1 justify-between items-center ' >
             <ul className='flex flex-wrap flex-row gap-4 text-[#71717A] font-semibold '>
-              <li> <Link to="/" >Dashboard</Link></li>
-              <li> <Link to="/Incidents">Incidents </Link> </li>
-              <li> <Link to="/Locations">Locations</Link> </li>
-              <li> <Link to="/Error">Activities</Link> </li>
-              <li> <Link to="/Error">Documents </Link> </li>
-              <li> <Link to="/Error">Cypher AI </Link> </li>
+              <li> <NavLink to="/" >Dashboard</NavLink></li>
+              <li> <NavLink to="/Incidents">Incidents </NavLink> </li>
+              <li> <NavLink to="/Locations">Locations</NavLink> </li>
+              <li> <NavLink to="/Error">Activities</NavLink> </li>
+              <li> <NavLink to="/Error">Documents </NavLink> </li>
+              <li> <NavLink to="/Error">Cypher AI </NavLink> </li>
             </ul>
           </div>
           <div className='flex flex-wrap items-center gap-4'>
