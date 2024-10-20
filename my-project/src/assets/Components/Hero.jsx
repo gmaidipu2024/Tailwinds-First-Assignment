@@ -5,20 +5,20 @@ function Hero() {
   return (
     <>
 
-    <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
+    <div className='flex flex-wrap justify-between content-center py-4 bg-[#E4E4E780] ml-4 mr-4 '>
            {/* First Part */}
-          <div>
-            <h3 className='text-[#71717A] '>Welcome back</h3>
+          <div className=' p-5  '>
+            <h3 className='text-[#71717A] mb-2 '>Welcome back</h3>
             <h1 className='font-bold text-3xl '>Dashboard</h1>
           </div>
            {/* Last part */}
-          <div className='flex flex-wrap gap-4 justify-center content-center'>
+          <div className='flex flex-wrap gap-4 justify-center items-center p-4'>
             <div>
-             <input className='p-4 outline-none' type="text" placeholder='Search incident' />
+             <input className='p-5 outline-none w-full md:fit' type="text" placeholder='Search incident' />
             </div>
               
-              <span className='bg-[white] p-4'>Sort By: Date modified</span>
-              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> Cypher AI</button>
+              <span className='bg-[white] p-5 w-full md:w-fit'>Sort By: Date modified</span>
+              <button className='bg-primary p-5 w-full md:w-fit rounded-lg text-white font-Onest font-bold '> Cypher AI</button>
 
           </div>
     </div>

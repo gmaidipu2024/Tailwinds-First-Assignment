@@ -5,11 +5,11 @@ function Hero8() {
     <>
       <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
            {/* First Part */}
-          <div>
-            <h3 className='text-[#71717A] '>Incidents - DR-4699 March 2023 Severe Storms </h3>
-            <div className='flex flex-wrap gap-2 p-2'>
+          <div className='flex  flex-col justify-center '>
+            <h3 className='text-[#71717A] text-[13px]'>Incidents-DR-4699 March 2023 Severe Storms </h3>
+            <div className='flex flex-wrap justify-center gap-2 p-2'>
               <img src="/public/img/tree.png" alt="" />
-            <h1 className='font-bold text-3xl '>DR-4699 March 2023 Severe Storms</h1>
+            <h1 className='font-bold text-2xl '>DR-4699 March 2023 Severe Storms</h1>
             </div>
             
           </div>
@@ -29,7 +29,7 @@ function Hero8() {
       <div className='grid grid-cols-1 md:grid-cols-2 justify-around  gap-5'>
             {/* Part 1 */}
             <div className=' mt-10 '>
-              <div className='flex flex-wrap gap-2 p-2 '>
+              <div className='flex flex-wrap  gap-2 p-2 '>
                     <img className='p-4 w-20 ' src="/public/img/locat.png" alt="" />
                   <div>
                     <p className='text-secondary mb-3'>Location</p>
@@ -47,7 +47,7 @@ function Hero8() {
               <div>
                 <span className='ml-8'>Description</span>
                 <div className=' text-justify w-fit'>
-                <p className='   ml-8 '>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho  werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit  general sac mascho werhoLorem ipsum dolar sit general sac mascho  werhoLorem ipsum dolar sit general sac mascho werho</p>
+                <p className=' ml-8 text-wrap ml-4 mr-4'>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho  werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit  general sac mascho werhoLorem ipsum dolar sit general sac mascho  werhoLorem ipsum dolar sit general sac mascho werho</p>
                 </div>
               
               </div>
@@ -164,10 +164,10 @@ function Hero8() {
             </div>
 
              {/* Part 2 */}
-            <div className='mt-10'>
+            <div className='mt-10 ml-4 mr-4'>
                <h1 className='text-secondary font-semibold mb-5'>Incident Map</h1>
                 <img src="/public/img/mp2.png" alt="" />
-                <p  className='text-secondary font-semibold mt-5'>Start 19.1232, -118.233     End 19.3245, -119.2323</p>
+                <p  className='text-secondary font-semibold mt-5 text-[12px]'>Start 19.1232, -118.233     End 19.3245, -119.2323</p>
             </div>
       </div>
     </>

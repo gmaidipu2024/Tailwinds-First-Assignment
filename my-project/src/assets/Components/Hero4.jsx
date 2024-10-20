@@ -11,8 +11,8 @@ function Hero4() {
       
       <div className='flex flex-wrap flex-col justify-center content-center items-center'>
         <div className=''>
-          <h1 className='text-center mt-5 mb-3 text-other font-Onest text-4xl font-bold '>Let’s get started</h1>
-          <p  className='text-secondary text-2xl line-clamp-6 mb-5'>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum <br/> dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p>
+          <h1 className='text-center mt-5 mb-3 text-other font-Onest text-2xl font-bold '>Let’s get started</h1>
+          <p  className='text-secondary w-fit text-justify text-wrap text-xl line-clamp-6 mb-5 ml-4 mr-4'>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum  dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p>
         </div>
 
         <div className=''>
@@ -26,36 +26,36 @@ function Hero4() {
 
         </div>
       </div>
-      {/* Last Part */}
+      {/* Last Part */} 
       <div className='flex flex-wrap justify-around  '>
 
-        <div className='bg-[#E4E4E7] mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
+        <div className='bg-[#E4E4E7] ml-4 mr-4 mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
           <div>
             <img className='w-[54px] mb-10 mt-10' src="/public/img/Frame.png" alt="" />
           </div>
           <div>
-            <h1 className='text-other text-4xl font-bold mt-5 mb-4 font-Onest '>Where did the <br/> incident occur?</h1>
-            <p className='text-secondary text-2xl leading-10 font-Onest '>Lorem ipsum dolar sit general <br/> sac mascho werho</p>
+            <h1 className='text-other text-2xl font-bold mt-5 mb-4 font-Onest '>Where did the <br/> incident occur?</h1>
+            <p className='text-secondary text-xl leading-10 font-Onest '>Lorem ipsum dolar sit general <br/> sac mascho werho</p>
           </div>
         </div>
-        <div className='bg-[#E4E4E7] mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
+        <div className='bg-[#E4E4E7] ml-4 mr-4 mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
           <div>
             <img className='w-[54px] mb-10 mt-10' src="/public/img/Frame.png" alt="" />
           </div>
           <div>
-            <h1 className='text-other text-4xl font-bold mt-5 mb-4 font-Onest '>Tell us about the <br/> incident?</h1>
-            <p className='text-secondary text-2xl leading-10 font-Onest '>Let’s connect the dots and <br/> see where to start.</p>
+            <h1 className='text-other text-2xl font-bold mt-5 mb-4 font-Onest '>Tell us about the <br/> incident?</h1>
+            <p className='text-secondary text-xl leading-10 font-Onest '>Let’s connect the dots and <br/> see where to start.</p>
           </div>
         </div>
 
-        <div className='bg-[#E4E4E7] mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
+        <div className='bg-[#E4E4E7] ml-4 mr-4 mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
           <div>
             <img className='w-[54px] mb-10 mt-10' src="/public/img/Frame (1).png" alt="" />
           </div>
           <div>
-            <h1 className='text-other text-4xl font-bold mt-5 mb-4 font-Onest '>Where did the 
+            <h1 className='text-other text-2xl font-bold mt-5 mb-4 font-Onest '>Where did the 
             <br/> incident occur?</h1>
-            <p className='text-secondary text-2xl leading-10 font-Onest '>Lorem ipsum dolar sit general <br/> sac mascho werhof</p>
+            <p className='text-secondary text-xl leading-10 font-Onest '>Lorem ipsum dolar sit general <br/> sac mascho werhof</p>
           </div>
         </div>
         

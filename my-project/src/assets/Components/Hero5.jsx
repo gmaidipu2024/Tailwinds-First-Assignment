@@ -12,17 +12,17 @@ function Hero5() {
         
         
          {/* Lower Navbar */}
-        <div className='flex justify-between content-center mt-6'>
+        <div className='flex flex-wrap justify-between content-center mt-6'>
            {/* First Part */}
           <div>
-            <h3 className='text-[#71717A] text-xl'>Home - Incidents - New Incident</h3>
-            <h1 className='font-bold text-3xl text-other  mt-4 '> New Incident</h1>
+            <h3 className='text-[#71717A]'>Home - Incidents - New Incident</h3>
+            <h1 className='font-bold text-3xl text-other  mt-4 mb-4 '> New Incident</h1>
           </div>
            {/* Last part */}
           <div className='flex flex-wrap gap-4 justify-center content-center'>
                          
-          <button onClick={()=>Navigate ('/Incidents')} className='bg-[white] px-20 rounded-lg text-other font-Onest font-bold '> Go Back</button>
-              <button onClick={()=>Navigate ('/Incidents3')}  className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
+          <button onClick={()=>Navigate ('/Incidents')} className='bg-[white] px-20 rounded-lg text-other font-Onest font-bold w-full md:w-fit p-4'> Go Back</button>
+              <button onClick={()=>Navigate ('/Incidents3')}  className='bg-primary p-4 rounded-lg text-white font-Onest font-bold w-full md:w-fit'> + New Incident</button>
 
           </div>
         </div>
@@ -30,7 +30,7 @@ function Hero5() {
       </div>
     {/* 2nd Section */}
       <div >
-        <h1 className='text-center text-other text-4xl font-bold font-Onest mt-8 mb-8'>Which of these best describes the incident?</h1>
+        <h1 className='text-center text-other text-3xl font-bold font-Onest mt-8 mb-8'>Which of these best describes the incident?</h1>
         <div className=' flex flex-wrap gap-3 justify-center items-center mb-5' >
            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
             <img src="/public/img/fi_67855.png" alt="" />
