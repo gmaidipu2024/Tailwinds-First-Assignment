@@ -5,6 +5,8 @@ import Hero from './Hero';
 import ErrorPage from './ErrorPage';
 import Navbar from './Navbar';
 import Hero8 from './Hero8';
+import Hero5 from './Hero5';
+import Hero6 from './Hero6';
 
 function Dashboard() {
   return (
@@ -15,6 +17,8 @@ function Dashboard() {
         <Route path='/Incidents' element={<Hero4/>} />
         <Route path='/Locations' element={ <Hero8/> } />  
         <Route path='/Error' element ={ <ErrorPage/> } />
+        <Route path='/Incidents2' element={<Hero5/> }/>
+        <Route path='/Incidents3' element={ <Hero6/> } />
           
       </Routes>
     </BrowserRouter>

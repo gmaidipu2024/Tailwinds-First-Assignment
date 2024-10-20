@@ -1,27 +1,14 @@
 
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+import Hero5 from './Hero5';
 
-// incident Page
+// incident Page 1
 function Hero4() {
+    const Navigate = useNavigate();
   return (
     <>
-      <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
-           {/* First Part */}
-          <div>
-            <h3 className='text-[#71717A] '>Home-Incident</h3>
-            <h1 className='font-bold text-3xl '>Incident</h1>
-          </div>
-           {/* Last part */}
-          <div className='flex flex-wrap gap-4 justify-center content-center'>
-            <div>
-             <input className='p-4 outline-none' type="text" placeholder='Search incident' />
-            </div>
-              
-              <span className='bg-[white] p-4'>Sort By: Date modified</span>
-              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
-
-          </div>
-        </div>
+      
       <div className='flex flex-wrap flex-col justify-center content-center items-center'>
         <div className=''>
           <h1 className='text-center mt-5 mb-3 text-other font-Onest text-4xl font-bold '>Let’s get started</h1>
@@ -75,7 +62,7 @@ function Hero4() {
 
       </div>
       <div className='text-center'>
-      <button className='bg-primary p-5 mb-5 mt-5 rounded-lg text-white font-Onest font-bold text-2xl '> Get started</button>
+      <button onClick={()=> Navigate( '/Incidents2' ) } className='bg-primary p-5 mb-5 mt-5 rounded-lg text-white font-Onest font-bold text-2xl '> Get Start </button>
       
       </div>
       
@@ -83,4 +70,4 @@ function Hero4() {
   )
 }
 
-export default Hero4
+export default Hero4;
