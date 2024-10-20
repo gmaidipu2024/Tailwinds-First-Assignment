@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
+// Navbar
 function Navbar(Props) {
   return (
     <>
@@ -11,15 +13,15 @@ function Navbar(Props) {
 
           <div className='content-center' >
             <ul className='flex flex-wrap flex-row gap-4 text-[#71717A] font-semibold '>
-              <li className='active'>Dashboard</li>
-              <li>Incidents</li>
-              <li>Locations</li>
-              <li>Activities</li>
-              <li>Documents</li>
-              <li>Cypher AI</li>
+              <li> <Link to="/" >Dashboard</Link></li>
+              <li> <Link to="/Incidents">Incidents </Link> </li>
+              <li> <Link to="/Locations">Locations</Link> </li>
+              <li> <Link to="/Error">Activities</Link> </li>
+              <li> <Link to="/Error">Documents </Link> </li>
+              <li> <Link to="/Error">Cypher AI </Link> </li>
             </ul>
           </div>
-          <div className='flex content-center gap-4'>
+          <div className='flex flex-wrap content-center gap-4'>
             <img className='bg-[#FFFFFF] p-4 rounded-full ' src="./public/img/bel.png" alt="" />
             <img src="./public/img/Rectangle 5412.png" alt="" />
             <div>
@@ -29,28 +31,12 @@ function Navbar(Props) {
           </div>
 
         </div>
-         {/* Lower Navbar */}
-        <div className='flex justify-between content-center mt-6'>
-           {/* First Part */}
-          <div>
-            <h3 className='text-[#71717A] '>Welcome back</h3>
-            <h1 className='font-bold text-3xl '>Dashboard</h1>
-          </div>
-           {/* Last part */}
-          <div className='flex flex-wrap gap-4 justify-center content-center'>
-            <div>
-             <input className='p-4 outline-none' type="text" placeholder='Search incident' />
-            </div>
-              
-              <span className='bg-[white] p-4'>Sort By: Date modified</span>
-              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> Cypher AI</button>
-
-          </div>
-        </div>
+         
+        
 
       </div>
     </>
   )
 }
 
-export default Navbar
+export default Navbar;

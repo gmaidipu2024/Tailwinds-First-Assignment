@@ -1,7 +1,6 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHillAvalanche, faDna, faCloud  } from '@fortawesome/free-solid-svg-icons'
+
 
 function Hero5() {
   return (

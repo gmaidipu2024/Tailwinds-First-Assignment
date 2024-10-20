@@ -1,38 +1,27 @@
 
 import React from 'react'
 
-
+// incident Page
 function Hero4() {
   return (
     <>
-      <div className='bg-[#E4E4E780] p-5 mx-auto'>
-        {/* Upper Navbar */}
-        <div className=' flex justify-between content-center flex-wrap  '>
-          <img src="./public/img/logo.png" alt="" />
-
-          <div className='content-center' >
-            <ul className='flex flex-wrap flex-row gap-4 text-[#71717A] font-semibold '>
-              <li className='active'>Dashboard</li>
-              <li>Incidents</li>
-              <li>Locations</li>
-              <li>Activities</li>
-              <li>Documents</li>
-              <li>Cypher AI</li>
-            </ul>
+      <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
+           {/* First Part */}
+          <div>
+            <h3 className='text-[#71717A] '>Home-Incident</h3>
+            <h1 className='font-bold text-3xl '>Incident</h1>
           </div>
-          <div className='flex flex-wrap content-center gap-4 '>
-            <img className='p-1' src="/public/img/nav.png" alt="" />
-            <img className='p-1' src="./public/img/Rectangle 5412.png" alt="" />
+           {/* Last part */}
+          <div className='flex flex-wrap gap-4 justify-center content-center'>
             <div>
-              <h1>Goutam Adhikari Dipu</h1>
-              <h3>gtm10322@gmail.com</h3>
-            </div>  
-          </div>
+             <input className='p-4 outline-none' type="text" placeholder='Search incident' />
+            </div>
+              
+              <span className='bg-[white] p-4'>Sort By: Date modified</span>
+              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
 
+          </div>
         </div>
-         
-          
-      </div>
       <div className='flex flex-wrap flex-col justify-center content-center items-center'>
         <div className=''>
           <h1 className='text-center mt-5 mb-3 text-other font-Onest text-4xl font-bold '>Let’s get started</h1>
