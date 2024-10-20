@@ -1,11 +1,11 @@
 import React from 'react'
 
-{/* Page1 */}
+{/* Dashboard */}
 function Hero() {
   return (
     <>
 
-        <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
+    <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
            {/* First Part */}
           <div>
             <h3 className='text-[#71717A] '>Welcome back</h3>
@@ -21,7 +21,7 @@ function Hero() {
               <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> Cypher AI</button>
 
           </div>
-        </div>
+    </div>
     <div className='flex flex-wrap'>
     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
       <img className=' relative ' src="/public/img/disas1.png" alt="" />
@@ -84,11 +84,8 @@ function Hero() {
      </div>
     </div>
     {/* dis1 */}
-  
-
-
-    {/* dis5 */}
-    <div className='mt-5 flex flex-wrap'>
+      {/* dis5 */}
+    <div className='mt-5 flex flex-wrap mb-10'>
     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
       <img className=' relative ' src="/public/img/Rectangle5.png" alt="" />
 
@@ -104,7 +101,7 @@ function Hero() {
       </div>
      </div>
 
-     <div className='mt-10 p-4 w-[306px] h-[253px] '>
+     <div className='mt-10 p-4 w-[306px] h-[253px] mb-10 '>
       <img className=' relative ' src="/public/img/Rectangle6.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>

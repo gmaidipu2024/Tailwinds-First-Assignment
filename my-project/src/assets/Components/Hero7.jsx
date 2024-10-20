@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-// Incident Page -5
+//  Last Incident Page 
 function Hero7() {
   const Navigate = useNavigate();
   return (

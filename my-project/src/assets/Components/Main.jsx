@@ -4,8 +4,13 @@ import Hero from './Hero'
 function Main() {
   return (
     <>
-    <div className='flex flex-wrap mb-20' >
-    <Hero/>  
+     <div>
+        <div>
+          <h1>Chat with Cypher</h1>
+        </div>
+        <div>
+          <img src="/public/img/f1.png" alt="" />
+        </div>
     </div>
    
     </>

@@ -1,41 +1,16 @@
 import React from 'react'
-import Main from './Main'
+import { useNavigate } from 'react-router-dom';
 
 
 function Hero3() {
+  const Navigate = useNavigate();
   return (
     <>
-      <div className='bg-[#E4E4E780] p-5 mx-auto'>
-        {/* Upper Navbar */}
-        <div className=' flex justify-between content-center flex-wrap  '>
-          <img src="./public/img/logo.png" alt="" />
-
-          <div className='content-center' >
-            <ul className='flex flex-wrap flex-row gap-4 text-[#71717A] font-semibold '>
-              <li className='active'>Dashboard</li>
-              <li>Incidents</li>
-              <li>Locations</li>
-              <li>Activities</li>
-              <li>Documents</li>
-              <li>Cypher AI</li>
-            </ul>
-          </div>
-          <div className='flex content-center gap-4'>
-            <img className='bg-[#FFFFFF] p-4 rounded-full ' src="./public/img/bel.png" alt="" />
-            <img src="./public/img/Rectangle 5412.png" alt="" />
-            <div>
-              <h1>Goutam Adhikari Dipu</h1>
-              <h3>gtm10322@gmail.com</h3>
-            </div>  
-          </div>
-
-        </div>
-         {/* Lower Navbar */}
-        <div className='flex justify-between content-center mt-6'>
+      <div className='flex flex-wrap justify-between content-center py-3 bg-[#E4E4E780] ml-4 mr-4'>
            {/* First Part */}
           <div>
-            <h3 className='text-[#71717A] '>Welcome back</h3>
-            <h1 className='font-bold text-3xl '>Dashboard</h1>
+            <h3 className='text-[#71717A] '>Home - Incidents</h3>
+            <h1 className='font-bold text-3xl '>Incidents</h1>
           </div>
            {/* Last part */}
           <div className='flex flex-wrap gap-4 justify-center content-center'>
@@ -44,13 +19,106 @@ function Hero3() {
             </div>
               
               <span className='bg-[white] p-4'>Sort By: Date modified</span>
-              <button className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
+              <button onClick={()=>Navigate('/Incidents1') } className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incidents</button>
 
           </div>
-        </div>
+    </div>
+    <div className='flex flex-wrap'>
+      {/* dis1 */}
+    <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
+      <img className=' relative ' src="/public/img/disas1.png" alt="" />
 
+      <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
+        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        
+        <h1 className='text-other font-bold '>Blizzard</h1>
       </div>
-      <Main/>
+      <div className='mt-4 mb-4'>
+        <h1 className='text-other font-bold'>Whitechapel Rd.</h1>
+        <h2 className='text-secondary'>Tulare County,  Los Angles, CA 23415</h2>
+        <h2 className='text-other font-bold'>$1,456,654.00</h2>
+      </div>
+     </div>
+   {/* dis2 */}
+     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
+      <img className=' relative ' src="/public/img/Rectangle 2.png" alt="" />
+
+      <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
+        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        
+        <h1 className='text-other font-bold '>Blizzard</h1>
+      </div>
+      <div className='mt-4 mb-4'>
+        <h1 className='text-other font-bold'>Whitechapel Rd.</h1>
+        <h2 className='text-secondary'>Tulare County,  Los Angles, CA 23415</h2>
+        <h2 className='text-other font-bold'>$1,456,654.00</h2>
+      </div>
+     </div>
+    {/* dis3 */}
+     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
+      <img className=' relative ' src="/public/img/Rectangle3.png" alt="" />
+
+      <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
+        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        
+        <h1 className='text-other font-bold '>Blizzard</h1>
+      </div>
+      <div className='mt-4 mb-4'>
+        <h1 className='text-other font-bold'>Whitechapel Rd.</h1>
+        <h2 className='text-secondary'>Tulare County,  Los Angles, CA 23415</h2>
+        <h2 className='text-other font-bold'>$1,456,654.00</h2>
+      </div>
+     </div>
+    {/* dis4 */}
+     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
+      <img className=' relative ' src="/public/img/Rectangle 4.png" alt="" />
+
+      <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
+        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        
+        <h1 className='text-other font-bold '>Blizzard</h1>
+      </div>
+      <div className='mt-4 mb-4'>
+        <h1 className='text-other font-bold'>Whitechapel Rd.</h1>
+        <h2 className='text-secondary'>Tulare County,  Los Angles, CA 23415</h2>
+        <h2 className='text-other font-bold'>$1,456,654.00</h2>
+      </div>
+     </div>
+    </div>
+    
+      {/* dis5 */}
+    <div className='mt-5 flex flex-wrap'>
+    <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
+      <img className=' relative ' src="/public/img/Rectangle5.png" alt="" />
+
+      <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
+        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        
+        <h1 className='text-other font-bold '>Blizzard</h1>
+      </div>
+      <div className='mt-4 mb-4'>
+        <h1 className='text-other font-bold'>Whitechapel Rd.</h1>
+        <h2 className='text-secondary'>Tulare County,  Los Angles, CA 23415</h2>
+        <h2 className='text-other font-bold'>$1,456,654.00</h2>
+      </div>
+     </div>
+
+     <div className='mt-10 p-4 w-[306px] h-[253px] '>
+      <img className=' relative ' src="/public/img/Rectangle6.png" alt="" />
+
+      <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
+        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        
+        <h1 className='text-other font-bold '>Blizzard</h1>
+      </div>
+      <div className='mt-4 mb-4'>
+        <h1 className='text-other font-bold'>Whitechapel Rd.</h1>
+        <h2 className='text-secondary'>Tulare County,  Los Angles, CA 23415</h2>
+        <h2 className='text-other font-bold'>$1,456,654.00</h2>
+      </div>
+     </div>
+    </div>
+     
     </>
   )
 }
