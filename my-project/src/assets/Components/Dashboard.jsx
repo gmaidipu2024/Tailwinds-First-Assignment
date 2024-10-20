@@ -7,6 +7,7 @@ import Navbar from './Navbar';
 import Hero8 from './Hero8';
 import Hero5 from './Hero5';
 import Hero6 from './Hero6';
+import Hero7 from './Hero7';
 
 function Dashboard() {
   return (
@@ -19,6 +20,7 @@ function Dashboard() {
         <Route path='/Error' element ={ <ErrorPage/> } />
         <Route path='/Incidents2' element={<Hero5/> }/>
         <Route path='/Incidents3' element={ <Hero6/> } />
+        <Route path='/Incidents4' element={ <Hero7/> } />
           
       </Routes>
     </BrowserRouter>

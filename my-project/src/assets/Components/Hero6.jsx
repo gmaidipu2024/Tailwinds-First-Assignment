@@ -1,7 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+
+// Incident Page -4
 function Hero6() {
-  const Navigate= useNavigate();
+  const Navigate =  useNavigate();
   return (
     <>
     <div className='bg-[#E4E4E780] p-5 mx-auto'>
@@ -17,7 +19,7 @@ function Hero6() {
           <div className='flex flex-wrap gap-4 justify-center content-center'>
                          
           <button onClick={()=>Navigate ('/Incidents2')} className='bg-[white] px-20 rounded-lg text-other font-Onest font-bold '> Go Back</button>
-              <button onClick={()=>Navigate ('')}  className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
+              <button onClick={()=>Navigate ('/Incidents4')}  className='bg-primary p-4 rounded-lg text-white font-Onest font-bold '> + New Incident</button>
 
           </div>
         </div>
