@@ -32,92 +32,92 @@ function Hero5() {
       <div >
         <h1 className='text-center text-other text-3xl font-bold font-Onest mt-8 mb-8'>Which of these best describes the incident?</h1>
         <div className=' flex flex-wrap gap-3 justify-center items-center mb-5' >
-           <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+           <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
             <img src="/public/img/fi_67855.png" alt="" />
-              <span className='text-secondary'>Avalanche</span>
+              <span className='text-secondary hover:text-white'>Avalanche</span>
             </div>
 
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto '>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
             <img src="/public/img/fi_8931510.png" alt="" />
-              <span className='text-secondary'>Biological</span>
+              <span className='text-secondary hover:text-white'>Biological</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/fi_3496215.png" alt="" />
               <span className='text-secondary'>Blizzard</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/Vector (1).png" alt="" />
-              <span className='text-secondary'>Cold/Freezing</span>
+              <span className='text-secondary hover:text-white'>Cold/Freezing</span>
             </div>
 
 
         </div>
 
         <div className=' flex flex-wrap gap-3 justify-center items-center mb-5' >
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto '>
-           <img src="/public/img/fi_533057.png" alt="" />
-              <span className='text-secondary'>Drought</span>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto hover:bg-primary hover:text-white hover:cursor-pointer '>
+           <img  src="/public/img/fi_533057.png" alt="" />
+              <span className='text-secondary hover:text-white '>Drought</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
             <img src="/public/img/erth.png" alt="" />
-              <span className='text-secondary'>Earthquake</span>
+              <span className='text-secondary hover:text-white'>Earthquake</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/flo.png" alt="" />
-              <span className='text-secondary'>Flooding</span>
+              <span className='text-secondary hover:text-white'>Flooding</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/heat.png" alt="" />
-              <span className='text-secondary'>Heat Wave</span>
+              <span className='text-secondary hover:text-white'>Heat Wave</span>
             </div>
         </div>
 
         <div className=' flex flex-wrap gap-3 justify-center items-center mb-5  ' >
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto '>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer  '>
             <img src="/public/img/hail.png" alt="" />
-              <span className='text-secondary'>Hail</span>
+              <span className='text-secondary hover:text-white'>Hail</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
             <img src="/public/img/light.png" alt="" />
-              <span className='text-secondary'>Lightning</span>
+              <span className='text-secondary hover:text-white'>Lightning</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto '>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/hand.png" alt="" />
-              <span className='text-secondary'>Man Made</span>
+              <span className='text-secondary hover:text-white'>Man Made</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/cld2.png" alt="" />
-              <span className='text-secondary'>Mudslide</span>
+              <span className='text-secondary hover:text-white'>Mudslide</span>
             </div>
         </div>
 
         <div className=' flex flex-wrap gap-3 justify-center items-center mb-5' >
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/storm.png" alt="" />
-              <span className='text-secondary'>Severe Storm</span>
+              <span className='text-secondary hover:text-white'>Severe Storm</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
             <img src="t/public/img/strm2.png" alt="" />
-              <span className='text-secondary'>Strong Wind</span>
+              <span className='text-secondary hover:text-white'>Strong Wind</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto '>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer  '>
            <img src="/public/img/trnwdo.png" alt="" />
-              <span className='text-secondary'>Tornado</span>
+              <span className='text-secondary hover:text-white'>Tornado</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/sunami.png" alt="" />
-              <span className='text-secondary'>Tsunami</span>
+              <span className='text-secondary hover:text-white'>Tsunami</span>
             </div>
 
 
         </div>
 
         <div className=' flex flex-wrap justify-center gap-5 mb-5 ' >
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[200px] h-auto'>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[200px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
            <img src="/public/img/volano.png" alt="" />
               <span className='text-secondary'>Volcanic Eruption</span>
             </div>
-            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[200px] h-auto '>
+            <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[200px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer  '>
             <img src="/public/img/wild.png" alt="" />
               <span className='text-secondary'>Wildfire</span>
             </div>
