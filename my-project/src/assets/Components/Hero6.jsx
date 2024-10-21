@@ -26,7 +26,7 @@ function Hero6() {
 
     </div>
 
-    <div className='mt-10 mr-0 flex flex-col flex-wrap  justify-center content-center  ml-4 mr-4'>
+    <div className='mt-10  flex flex-col flex-wrap  justify-center content-center  ml-4 mr-4'>
       
         <h1 className='text-2xl font-Onest font-bold mb-5'>Let’s give the incident a title?</h1>
         <h3 className='font-Onest text-[14px] text-secondary font-medium mb-5  '>Make a title that will easily identify the incidents</h3>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-
+// Incident Dashbord
 function Hero3() {
   const Navigate = useNavigate();
   return (
@@ -26,10 +26,10 @@ function Hero3() {
     <div className='flex flex-wrap'>
       {/* dis1 */}
     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
-      <img className=' relative ' src="/public/img/disas1.png" alt="" />
+      <img className=' relative ' src="/img/disas1.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
-        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        <img className='w-full h-fit' src="/img/clouds.png" alt="" />
         
         <h1 className='text-other font-bold '>Blizzard</h1>
       </div>
@@ -41,10 +41,10 @@ function Hero3() {
      </div>
    {/* dis2 */}
      <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
-      <img className=' relative ' src="/public/img/Rectangle 2.png" alt="" />
+      <img className=' relative ' src="/img/Rectangle 2.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
-        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        <img className='w-full h-fit' src="/img/clouds.png" alt="" />
         
         <h1 className='text-other font-bold '>Blizzard</h1>
       </div>
@@ -56,10 +56,10 @@ function Hero3() {
      </div>
     {/* dis3 */}
      <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
-      <img className=' relative ' src="/public/img/Rectangle3.png" alt="" />
+      <img className=' relative ' src="/img/Rectangle3.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
-        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        <img className='w-full h-fit' src="/img/clouds.png" alt="" />
         
         <h1 className='text-other font-bold '>Blizzard</h1>
       </div>
@@ -71,10 +71,10 @@ function Hero3() {
      </div>
     {/* dis4 */}
      <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
-      <img className=' relative ' src="/public/img/Rectangle 4.png" alt="" />
+      <img className=' relative ' src="/img/Rectangle 4.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
-        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        <img className='w-full h-fit' src="/img/clouds.png" alt="" />
         
         <h1 className='text-other font-bold '>Blizzard</h1>
       </div>
@@ -89,10 +89,10 @@ function Hero3() {
       {/* dis5 */}
     <div className='mt-5 flex flex-wrap'>
     <div className='mt-10 mb-10 p-4 w-[306px] h-[253px] '>
-      <img className=' relative ' src="/public/img/Rectangle5.png" alt="" />
+      <img className=' relative ' src="/img/Rectangle5.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
-        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        <img className='w-full h-fit' src="/img/clouds.png" alt="" />
         
         <h1 className='text-other font-bold '>Blizzard</h1>
       </div>
@@ -104,10 +104,10 @@ function Hero3() {
      </div>
 
      <div className='mt-10 p-4 w-[306px] h-[253px] '>
-      <img className=' relative ' src="/public/img/Rectangle6.png" alt="" />
+      <img className=' relative ' src="/img/Rectangle6.png" alt="" />
 
       <div className='mt-[-215px] ml-[160px] bg-white   m-6  z-0 rounded-full p-2 absolute flex  gap-4 items-center'>
-        <img className='w-full h-fit' src="/public/img/clouds.png" alt="" />
+        <img className='w-full h-fit' src="/img/clouds.png" alt="" />
         
         <h1 className='text-other font-bold '>Blizzard</h1>
       </div>

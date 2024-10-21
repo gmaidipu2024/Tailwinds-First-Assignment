@@ -33,7 +33,7 @@ function Hero7() {
         <h3 className=' font-Onest text-[14px] text-secondary font-medium mb-5  '>Enter a GPS, address. or pin point on the map. Try to be as accurate as <br/> possible, or click:Jurisdiction Wide</h3>
 
         <div>
-          <img className='mb-10' src="/public/img/map.png" alt="" />
+          <img className='mb-10' src="/img/map.png" alt="" />
         </div>
     </div>
     <div>

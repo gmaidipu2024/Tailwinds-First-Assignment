@@ -97,7 +97,7 @@ function Hero5() {
               <span className='text-secondary hover:text-white'>Severe Storm</span>
             </div>
             <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer '>
-            <img src="t/public/img/strm2.png" alt="" />
+            <img src="/public/img/strm2.png" alt="" />
               <span className='text-secondary hover:text-white'>Strong Wind</span>
             </div>
             <div className=' flex flex-wrap gap-4 text-center bg-[#E4E4E7] p-4 w-[180px] h-auto  hover:bg-primary hover:text-white hover:cursor-pointer  '>

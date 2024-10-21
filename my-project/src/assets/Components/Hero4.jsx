@@ -18,11 +18,11 @@ function Hero4() {
         <div className=''>
 
           <div className='flex flex-wrap justify-between '>
-            <img src="/public/img/Ellipse 688.png" alt="" />
-            <img src="/public/img/Ellipse 688.png" alt="" />
-            <img src="/public/img/Ellipse 688.png" alt="" />
+            <img src="/img/Ellipse 688.png" alt="" />
+            <img src="/img/Ellipse 688.png" alt="" />
+            <img src="/img/Ellipse 688.png" alt="" />
           </div>
-          <img className='mt-[-18px]' src="/public/img/Rectanglel.png" alt="" />
+          <img className='mt-[-18px]' src="/img/Rectanglel.png" alt="" />
 
         </div>
       </div>
@@ -31,7 +31,7 @@ function Hero4() {
 
         <div className='bg-[#E4E4E7] ml-4 mr-4 mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
           <div>
-            <img className='w-[54px] mb-10 mt-10' src="/public/img/Frame.png" alt="" />
+            <img className='w-[54px] mb-10 mt-10' src="/img/Frame.png" alt="" />
           </div>
           <div>
             <h1 className='text-other text-2xl font-bold mt-5 mb-4 font-Onest '>Where did the <br/> incident occur?</h1>
@@ -40,7 +40,7 @@ function Hero4() {
         </div>
         <div className='bg-[#E4E4E7] ml-4 mr-4 mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
           <div>
-            <img className='w-[54px] mb-10 mt-10' src="/public/img/Frame.png" alt="" />
+            <img className='w-[54px] mb-10 mt-10' src="/img/Frame.png" alt="" />
           </div>
           <div>
             <h1 className='text-other text-2xl font-bold mt-5 mb-4 font-Onest '>Tell us about the <br/> incident?</h1>
@@ -50,7 +50,7 @@ function Hero4() {
 
         <div className='bg-[#E4E4E7] ml-4 mr-4 mt-10 p-8 rounded-lg mb-5 border: 1px solid #E4E4E7'>
           <div>
-            <img className='w-[54px] mb-10 mt-10' src="/public/img/Frame (1).png" alt="" />
+            <img className='w-[54px] mb-10 mt-10' src="/img/Frame (1).png" alt="" />
           </div>
           <div>
             <h1 className='text-other text-2xl font-bold mt-5 mb-4 font-Onest '>Where did the 
