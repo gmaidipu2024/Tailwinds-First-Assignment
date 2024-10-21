@@ -6,13 +6,13 @@ function Navbar(Props) {
   return (
     <>
     {/* Main Div */}
-      <div className='bg-[#E4E4E780] p-5 content-center ml-4 mr-4   '>
+      <div className='bg-[#E4E4E780] p-5  ml-4 mr-4   '>
         {/* Upper Navbar */}
-        <div className=' flex justify-between content-center flex-wrap  '>
+        <div className=' flex flex-wrap justify-around gap-5 p-5 text-center  '>
           <img className='mb-2 text-center' src="/img/logo.png" alt="" />
 
-          <div className=' grid grid-cols-12 md:grid-cols-1 justify-between items-center ' >
-            <ul className='flex flex-wrap flex-row gap-4 text-[#71717A] font-semibold '>
+          <div className=' flex ' >
+            <ul className=' flex flex-wrap justify-center items-center content-center gap-5 text-[#71717A] font-semibold '>
               <li> <NavLink to="/" >Dashboard</NavLink></li>
               <li> <NavLink to="/Incidents">Incidents </NavLink> </li>
               <li> <NavLink to="/Locations">Locations</NavLink> </li>
@@ -21,7 +21,7 @@ function Navbar(Props) {
               <li> <NavLink to="/Error">Cypher AI </NavLink> </li>
             </ul>
           </div>
-          <div className='flex flex-wrap items-center gap-4'>
+          <div className='flex flex-wrap justify-center items-center gap-4'>
             <img className='bg-[#FFFFFF] p-4 rounded-full ' src="/img/bel.png" alt="" />
             <img src="/img/Rectangle 5412.png" alt="" />
             <div>
